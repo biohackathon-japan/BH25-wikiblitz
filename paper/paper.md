@@ -6,13 +6,15 @@ tags:
   - Ontologies
   - Workflows
 authors:
-  - name: First Author
+  - name: Andra Waagmeester
+    orcid: 0000-0001-9773-4008
     affiliation: 1
   - name: Last Author
     orcid: 0000-0000-0000-0000
     affiliation: 2
 affiliations:
-  - name: First Affiliation
+  - name: AmsterdamUMC, Amsterdam, the Netherlands
+    ror: 05grdyy37
     index: 1
   - name: ELIXIR Europe
     ror: 044rwnt51
