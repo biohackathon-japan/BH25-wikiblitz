@@ -48,7 +48,7 @@ affiliations:
     index: 4
   - name: Camber
     index: 5
-  - name: Leiden University Medical Center: Leiden, NL
+  - name: "Leiden University Medical Center: Leiden, NL"
     ror: 05xvt9f17
     index: 6
   - name: Leibniz Institute DSMZ – German Collection of Microorganisms and Cell Cultures: Braunschweig, DE
