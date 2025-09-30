@@ -37,7 +37,7 @@ authors:
 affiliations:
   - name: Micelio, Ekeren, Belgium
     index: 1
-  - name: Database Center for Life Science: Kashiwa, Chiba, JP
+  - name: "Database Center for Life Science: Kashiwa, Chiba, JP"
     ror: 044rwnt51
     index: 2
   - name: Biological Resource Center, NITE (NBRC), National Institute of Technology and Evaluation (NITE)
