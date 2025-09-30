@@ -35,7 +35,7 @@ authors:
 
 
 affiliations:
-  - name: Micelio, Ekeren, Belgium
+  - name: Micelio, Ekeren, BE
     index: 1
   - name: "Database Center for Life Science: Kashiwa, Chiba, JP"
     ror: 044rwnt51
@@ -51,7 +51,7 @@ affiliations:
   - name: "Leiden University Medical Center: Leiden, NL"
     ror: 05xvt9f17
     index: 6
-  - name: Leibniz Institute DSMZ – German Collection of Microorganisms and Cell Cultures: Braunschweig, DE
+  - name: "Leibniz Institute DSMZ – German Collection of Microorganisms and Cell Cultures: Braunschweig, DE"
     ror: 02tyer376
     index: 7
 date: 23 September 2025
