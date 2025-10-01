@@ -72,9 +72,20 @@ authors_short: Andra Waagmeester \emph{et al.}
 
 As part of the DBCLS BioHackathon 2025, we here report the results of the Wikiblitz we ran during the event. It builds on the initial edition held at the previous edition of the biohackathon in Fukushima. During that edition we reported on how to run a Wikiblitz, which is an event where iNaturalist is used to identify the flora and fauna of the surroundings of event. We ran this edition using the steps described [@usesMethodIn:waagmeester2025biohackjp24]
 
+# Methods
+## iNaturalist project
+We created a project in iNaturalist, (https://www.inaturalist.org/projects/biohackathon-2025). iNaturalist is an app and communicate that allows recording observation of organisms. The observations can be assessed using a machine-learning model. Those suggestions are subsequentelly assessed by members of the global iNaturalist community. An iNaturalist project is a way to collect and organise a group of observations. Observations collected in a group and its annotations can than be automatically integrated in other pipelines. 
 
-## Results
-### iNaturalist Project Report: biohackathon-2025
+## Wikidata
+Wikidata is the linked-data repository of the Wikimedia Foundation that seamlessly integrates with all language versions of Wikipedia. Wikidata contains data on taxa. Often those taxa in Wikidata contain mappings to external identifiers of which one is the iNaturalist identifier. These mappings allow linking those observations through its species identifier to other information source on the taxa observed. Wikidata has a SPARQL endpoint which we have used to align the biohackathon iNaturalist project with Wikidata. 
+
+## Wikipedia
+A major goal of this wikiblitz is to identify missing Wikipedia articles in the languages spoken by those who participated in the WikiBlitz. These are English, Japanese, Spanish, Arabic and Dutch. However, the pipeline can be extended to any of the language version of Wikipedia. 
+
+## Github actions. 
+
+# Results
+## iNaturalist Project Report: biohackathon-2025
 
 - Total observations: 198
 - Unique species observed: 147
@@ -84,7 +95,7 @@ As part of the DBCLS BioHackathon 2025, we here report the results of the Wikibl
 
 ![Top 10 Observers](top_observers_biohackathon-2025.png)
 
-### Wikipedia & Wikidata Coverage
+## Wikipedia & Wikidata Coverage
 
 - Species not on Wikidata: **8**
 - Missing in en: **37**
