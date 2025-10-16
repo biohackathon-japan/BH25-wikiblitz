@@ -85,6 +85,16 @@ A major goal of this wikiblitz is to identify missing Wikipedia articles in the 
 ## Github actions. 
 Github actions is a contiuous integration platform that is intended to run tests on code changes. However, it can also be used to run any code. We have build a python script that compares all observations on a given iNaturalist project with existing articles on Wikipedia. This through the mappings in Wikidata. The script is initiated by isssueing a github issue, which triggers a github action we have build for this purpose. The results are stored as a markdown file in the repository.
 For this specific wikiblitz the results are published below. 
+
+## Implementation details
+
+- **Issue template** used to trigger the WikiBlitz action:  
+  [`wikiblitz.yml`](https://github.com/wikiproject-biodiversity/iNotListed/issues/new?template=wikiblitz.yml)  
+- **Python script** that matches iNaturalist observations to Wikidata / Wikipedia:  
+  [`iNotWiki.py`](https://github.com/wikiproject-biodiversity/iNotListed/blob/main/iNotWiki.py)  
+- **GitHub Actions workflow** that runs the script automatically to produce the report:  
+  [`run-wikiblitz.yml`](https://github.com/wikiproject-biodiversity/iNotListed/blob/main/.github/workflows/run-wikiblitz.yml)
+
 # Results
 ## iNaturalist Project Report: biohackathon-2025
 
@@ -92,9 +102,9 @@ For this specific wikiblitz the results are published below.
 - Unique species observed: 147
 - Unique observers: 8
 
-![Top 10 Species](top_species_biohackathon-2025.png)
+![Top 10 Species observed during BioHackathon 2025](top_species_biohackathon-2025.png)
 
-![Top 10 Observers](top_observers_biohackathon-2025.png)
+![Top 10 Observers contributing to the project](top_observers_biohackathon-2025.png)
 
 ## Wikipedia & Wikidata Coverage
 
