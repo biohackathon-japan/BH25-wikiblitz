@@ -83,7 +83,8 @@ Wikidata is the linked-data repository of the Wikimedia Foundation that seamless
 A major goal of this wikiblitz is to identify missing Wikipedia articles in the languages spoken by those who participated in the WikiBlitz. These are English, Japanese, Spanish, Arabic and Dutch. However, the pipeline can be extended to any of the language version of Wikipedia. 
 
 ## Github actions. 
-
+Github actions is a contiuous integration platform that is intended to run tests on code changes. However, it can also be used to run any code. We have build a python script that compares all observations on a given iNaturalist project with existing articles on Wikipedia. This through the mappings in Wikidata. The script is initiated by isssueing a github issue, which triggers a github action we have build for this purpose. The results are stored as a markdown file in the repository.
+For this specific wikiblitz the results are published below. 
 # Results
 ## iNaturalist Project Report: biohackathon-2025
 
@@ -260,11 +261,18 @@ A major goal of this wikiblitz is to identify missing Wikipedia articles in the 
 | **Totals** |  | 37 | 76 | 76 | 96 | 56 |
  
 # Discussion
+Bioblitzes have been used to engage participants in structured biodiversity recording, contribute to species inventories, educate participants, and link between professional and amateur naturalists. In previous biohackathons we have extended the term "bioblitz" term to Wikiblitz to include integrate both wikipedia and wikidata to the bioblitz. 
+The purpose is two fold. iNaturalist already relies on Wikipedia for the descriptions of the organisms that can be identified with the platform. However, not all taxa covered by iNaturalist have a corresponding Wikipedia article. When looking at other language Wikipedias, the coverage of taxa is even more sparse. Wikidata also contains a large number of mappings between the entries on taxa and mappings to other databases and resources. The most notably being mappings to GBIF, NCBI, EOL, and many others. Linking observations to Wikidata items allows for a richer set of metadata to be associated with the observations. 
+Equally, the photos taking during the wikiblitz can be used to illustrate the Wikipedia articles and Wikidata items. This can be useful for taxa that are not well represented on Wikipedia. 
 
-...
+Finding and harvesting knowledge from different authoritative sources can be challenging. The use of Wikidata as a hub for linking between different databases and resources can help here. During this biohackathon we have improved the pipeline for linking between iNaturalist and Wikidata. Initially proficiency with both iNaturalist and Wikidata was required. Now, by using github actions, the linking can be done automatically. This will allow for future wikiblizes to be more easily organized, all that is needed it to created a dedciated iNaturalist project and the particpants to apply a compatible license to their observations. 
+
+In future editions of the wikiblitz we would like to further improve the writing process. The current pipeline still requires manual information retrieval from the various resources. The question is to what extent recent developements in generative AI can be used to help with this process. This especially interesting considering the multilingual nature of the observations, the Wikipedias and the available resources.
+
+## Licenses
+The default license applied on iNaturalist is CC BY-NC. However, during the wikiblitz we encouraged participants to apply CC BY or CC0 licenses to their observations so that they can be used on Wikipedia and Wikidata. 
+
 
 ## Acknowledgements
-
-...
-
+We would like to thank the organisers of the 2025 DBCLS Biohackathon for hosting the event and providing the opportunity to run the wikiblitz. We would also like to thank the broader iNaturalist and Wikipedia community for contributions. 
 ## References
