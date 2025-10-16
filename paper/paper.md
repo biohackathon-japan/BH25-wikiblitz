@@ -272,7 +272,7 @@ In future editions of the wikiblitz we would like to further improve the writing
 ## Licenses
 The default license applied on iNaturalist is CC BY-NC. However, during the wikiblitz we encouraged participants to apply CC BY or CC0 licenses to their observations so that they can be used on Wikipedia and Wikidata. 
 
-
 ## Acknowledgements
 We would like to thank the organisers of the 2025 DBCLS Biohackathon for hosting the event and providing the opportunity to run the wikiblitz. We would also like to thank the broader iNaturalist and Wikipedia community for contributions. 
+
 ## References
