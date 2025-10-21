@@ -29,7 +29,7 @@ authors:
   - name: Núria Queralt Rosinach
     orcid: 0000-0000-0000-0000
     affiliation: 6
-  - name: Julie Koblitz
+  - name: Julia Koblitz
     orcid: 0000-0000-0000-0000
     affiliation: 7
 
@@ -62,7 +62,7 @@ biohackathon_url:   "https://2025.biohackathon.org/"
 biohackathon_location: "Mie, Japan, 2025"
 group: bh25-wikiblitz
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackathon-japan/bh25-bhxiv-template
+git_url: https://github.com/biohackathon-japan/BH25-wikiblitz
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: Andra Waagmeester \emph{et al.}
@@ -70,11 +70,11 @@ authors_short: Andra Waagmeester \emph{et al.}
 
 # Introduction
 
-As part of the DBCLS BioHackathon 2025, we here report the results of the Wikiblitz we ran during the event. It builds on the initial edition held at the previous edition of the biohackathon in Fukushima. During that edition we reported on how to run a Wikiblitz, which is an event where iNaturalist is used to identify the flora and fauna of the surroundings of event. We ran this edition using the steps described [@usesMethodIn:waagmeester2025biohackjp24]
+As part of the DBCLS BioHackathon 2025, we here report the results of the Wikiblitz we ran during the event. It builds on the initial edition held at the previous edition of the biohackathon in Fukushima. During that edition we reported on how to run a Wikiblitz, which is an event where iNaturalist is used to identify the flora and fauna of the surroundings of event. We ran this edition using the steps described [@usesMethodIn:waagmeester2025biohackjp24].
 
 # Methods
 ## iNaturalist project
-We created a project in iNaturalist [@mason2025inaturalist], (https://www.inaturalist.org/projects/biohackathon-2025). iNaturalist is an app and communicate that allows recording observation of organisms. The observations can be assessed using a machine-learning model. Those suggestions are subsequentelly assessed by members of the global iNaturalist community. An iNaturalist project is a way to collect and organise a group of observations. Observations collected in a group and its annotations can than be automatically integrated in other pipelines. 
+We created a project in [iNaturalist](https://www.inaturalist.org/projects/biohackathon-2025) [@mason2025inaturalist]. iNaturalist is an app and communicate that allows recording observation of organisms. The observations can be assessed using a machine-learning model that delivers suggestions on taxonomic categorization of the organisms observed. Those suggestions are subsequentelly assessed by members of the global iNaturalist community. An iNaturalist project is a way to collect and organise a group of observations. Observations collected in a group and its annotations can than be automatically integrated in other pipelines. 
 
 ## Wikidata
 Wikidata is the linked-data repository of the Wikimedia Foundation that seamlessly integrates with all language versions of Wikipedia. Wikidata contains data on taxa. Often those taxa in Wikidata contain mappings to external identifiers of which one is the iNaturalist identifier. These mappings allow linking those observations through its species identifier to other information source on the taxa observed. Wikidata has a SPARQL endpoint which we have used to align the biohackathon iNaturalist project with Wikidata. 
